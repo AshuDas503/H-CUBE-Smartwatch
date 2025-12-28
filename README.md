@@ -79,7 +79,7 @@ H-CUBE/
 ### 2. Firmware Installation
 1.  Clone this repository:
     ```
-    git clone https://github.com/yourusername/H-CUBE.git
+    git clone https://github.com/AshuDas503/H-CUBE.git
     ```
 2.  Open the project in **Arduino IDE**.
 3.  Install required libraries via Library Manager:
@@ -126,9 +126,8 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 ## 🔗 References & Links
 
-*   **Instructables Guide:** [Link to your Instructable]
-*   **Hackaday.io Project:** [Link to your Hackaday]
-*   **Video Demo:** [Link to YouTube Video]
+*   **Instructables Guide:** [https://www.instructables.com/H-CUBE-a-Retro-Style-Smart-Watch-Powered-by-an-ESP/]
+*   **Video Demo:** [https://www.youtube.com/watch?v=HaJIaakPBnE&t=3s]
 
 ---
 
