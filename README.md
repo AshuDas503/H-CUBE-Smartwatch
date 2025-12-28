@@ -15,7 +15,7 @@ A custom retro-style smartwatch powered by ESP32-S3 and HCMS-2971 LED display. O
 ## 📸 Gallery
 
 <!-- Upload images to an 'images' folder in your repo and uncomment the lines below -->
-<!-- <img src="images/watch_front.jpg" width="400" alt="H-CUBE Front View"> -->
+<img src="images/Watch_front.jpg" width="400" alt="H-CUBE Front View">
 <!-- <img src="images/pcb_render.jpg" width="400" alt="H-CUBE PCB Design"> -->
 
 ---
