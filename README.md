@@ -53,7 +53,6 @@ A custom retro-style smartwatch powered by ESP32-S3 and HCMS-2971 LED display. O
 *   **Fabrication:** 3D Printing (SLA/FDM for enclosure), Hot-plate Reflow (SMD Assembly).
 
 ---
----
 
 ## ⚡ Getting Started
 
