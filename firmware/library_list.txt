@@ -1,0 +1,45 @@
+H-CUBE FIRMWARE - REQUIRED LIBRARIES
+====================================
+
+Library Name                          | Version   | Purpose
+--------------------------------------|-----------|----------------------------
+Adafruit_NeoPixel                     | 1.10.7    | RGB LED control
+RTClib (Adafruit)                     | 2.1.1     | DS3231 Real-Time Clock
+SparkFun_BMI270_Arduino_Library       | 1.0.8     | BMI270 IMU sensor
+TinyGPSPlus                           | 1.0.3     | GP-02 GPS parsing
+LedDisplay (Stoffregen)               | 0.4.1     | HCMS-2971 alphanumeric LED display
+Preferences                           | N/A       | Built-in ESP32 (no install needed)
+Wire                                  | N/A       | Built-in I2C library
+SPI                                   | N/A       | Built-in SPI library
+WiFi                                  | N/A       | Built-in WiFi (ESP32)
+BluetoothSerial                       | N/A       | Built-in Bluetooth (ESP32)
+
+INSTALLATION INSTRUCTIONS:
+==========================
+
+1. Open Arduino IDE
+2. Go to: Sketch > Include Library > Manage Libraries
+3. Search for each library name above
+4. Install the version listed
+5. Restart Arduino IDE
+
+For GitHub Installation (LedDisplay):
+If not available in Library Manager, install manually:
+1. Download: https://github.com/PaulStoffregen/LedDisplay
+2. Extract to: ~/Documents/Arduino/libraries/
+3. Restart Arduino IDE
+
+For PlatformIO users:
+Add to platformio.ini:
+lib_deps =
+    adafruit/Adafruit NeoPixel @ 1.10.7
+    adafruit/RTClib @ 2.1.1
+    sparkfun/SparkFun BMI270 Arduino Library @ 1.0.8
+    mikalhart/TinyGPSPlus @ 1.0.3
+    https://github.com/PaulStoffregen/LedDisplay.git
+
+NOTES:
+======
+- If a library version is marked as "Built-in", you don't need to install it.
+- Always use the versions listed above for compatibility.
+- If you get compilation errors, check that all libraries are installed.
