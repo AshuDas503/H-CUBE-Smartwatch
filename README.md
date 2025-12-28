@@ -53,23 +53,6 @@ A custom retro-style smartwatch powered by ESP32-S3 and HCMS-2971 LED display. O
 *   **Fabrication:** 3D Printing (SLA/FDM for enclosure), Hot-plate Reflow (SMD Assembly).
 
 ---
-
-## 📂 Repository Structure
-
-H-CUBE/
-├── firmware/ # Source code for ESP32-S3
-│ ├── src/ # Main .ino/.cpp files
-│ └── libraries/ # Custom or modified libraries
-├── hardware/ # PCB Design Files
-│ ├── gerbers/ # Fabrication files
-│ ├── schematics/ # PDF Schematics
-│ └── bom/ # Bill of Materials
-├── enclosure/ # 3D Print Files
-│ ├── stl/ # Ready-to-print STL files
-│ └── step/ # Editable STEP files
-└── documentation/ # Datasheets and design notes
-
-
 ---
 
 ## ⚡ Getting Started
