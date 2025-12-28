@@ -94,8 +94,8 @@ H-CUBE/
 5.  Connect the H-CUBE via USB and click **Upload**.
 
 ### 3. Assembly
-*   Refer to the `enclosure/README.md` for 3D printing settings (Layer height: 0.12mm recommended).
-*   Wiring diagrams and pinout maps can be found in `hardware/schematics/`.
+*   Refer to the `Enclosure/README.md` for 3D printing settings (Layer height: 0.12mm recommended).
+*   Wiring diagrams and pinout maps can be found in `Hardware/schematics/`.
 
 ---
 
